@@ -10,3 +10,16 @@ C:\C#_SLK2\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.KW_Guideboo
 C:\C#_SLK2\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Bima.resources
 C:\C#_SLK2\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Saebit.resources
 C:\C#_SLK2\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Chambit.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\bin\Debug\KW_Guidebook_UI.exe.config
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\bin\Debug\KW_Guidebook_UI.exe
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\bin\Debug\KW_Guidebook_UI.pdb
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.csprojAssemblyReference.cache
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.KW_Guidebook_Main.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Bima.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Saebit.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Chambit.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Properties.Resources.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.csproj.GenerateResource.cache
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.exe
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.pdb
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.bima_lab.resources

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.bima_label = new System.Windows.Forms.Label();
+            this.lab_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bima_label
@@ -42,12 +43,24 @@
             this.bima_label.TabIndex = 0;
             this.bima_label.Text = "비마관";
             // 
+            // lab_btn
+            // 
+            this.lab_btn.Font = new System.Drawing.Font("맑은 고딕 Semilight", 13.8F);
+            this.lab_btn.Location = new System.Drawing.Point(200, 236);
+            this.lab_btn.Name = "lab_btn";
+            this.lab_btn.Size = new System.Drawing.Size(227, 126);
+            this.lab_btn.TabIndex = 1;
+            this.lab_btn.Text = "연구실";
+            this.lab_btn.UseVisualStyleBackColor = true;
+            this.lab_btn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Bima
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(1284, 858);
+            this.Controls.Add(this.lab_btn);
             this.Controls.Add(this.bima_label);
             this.Name = "Bima";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -61,5 +74,6 @@
         #endregion
 
         private System.Windows.Forms.Label bima_label;
+        private System.Windows.Forms.Button lab_btn;
     }
 }

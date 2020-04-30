@@ -74,6 +74,11 @@ namespace KW_Guidebook_UI
    
         }
 
+        private void KW_Guidebook_Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
         //CNN을 이용해 건물을 알아낸 후 건물값을 알려주는 함수
         /*
         private int getBuilding_number()
