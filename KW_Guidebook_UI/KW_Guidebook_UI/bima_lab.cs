@@ -27,5 +27,10 @@ namespace KW_Guidebook_UI
         {
             System.Diagnostics.Process.Start("https://ipsl.kw.ac.kr/xe/");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

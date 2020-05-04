@@ -63,7 +63,7 @@
             this.Controls.Add(this.lab_btn);
             this.Controls.Add(this.bima_label);
             this.Name = "Bima";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bima_Information";
             this.Load += new System.EventHandler(this.Child_Load);
             this.ResumeLayout(false);

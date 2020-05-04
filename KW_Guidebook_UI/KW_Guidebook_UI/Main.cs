@@ -15,10 +15,7 @@ namespace KW_Guidebook_UI
     {
         public KW_Guidebook_Main()
         {
-            InitializeComponent();
-            
-            //information_btn 버튼 이벤트 추가
-            this.information_btn.Click += search_btn_Click;           
+            InitializeComponent();      
         }
 
         //Load Image 버튼을 클릭하면, 사용자의 파일 탐색기에서 사진 선택 후 사진 출력 

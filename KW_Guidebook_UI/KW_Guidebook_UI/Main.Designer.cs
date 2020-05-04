@@ -93,6 +93,7 @@
             this.Controls.Add(this.load_image_btn);
             this.Controls.Add(this.KW_Guidebook_label);
             this.Name = "KW_Guidebook_Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KW_Guidebook_Main";
             this.Load += new System.EventHandler(this.KW_Guidebook_Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.image_pictureBox)).EndInit();
