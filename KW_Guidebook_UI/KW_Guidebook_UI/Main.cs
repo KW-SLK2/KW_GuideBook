@@ -79,8 +79,38 @@ namespace KW_Guidebook_UI
         //이미지에 대한 정보를 출력할 버튼
         private void search_btn_Click(object sender, EventArgs e)
         {
+            // 소켓 생성
+            using (Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
+            {
+                client.Connect(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9999)); // Connect 함수로 로컬(127.0.0.1)의 포트 번호 9999로 대기 중인 socket에 접속
+
+                var data = Encoding.UTF8.GetBytes("hello"); // python 파일에 이미지 경로를 UTF8타입의 byte 배열로 변환
+
+                client.Send(BitConverter.GetBytes(data.Length)); // big엔디언으로 데이터 길이를 변환하고 서버로 보낼 데이터의 길이보냄
+
+                client.Send(data); //데이터 전송
+
+                data = new byte[4];  // 데이터의 길이를 수신하기 위한 배열생성
+
+                client.Receive(data, data.Length, SocketFlags.None); // 데이터의 길이를 수신
+
+                Array.Reverse(data);
+
+                data = new byte[BitConverter.ToInt32(data, 0)]; // 데이터의 길이만큼 byte 배열을 생성
+
+                client.Receive(data, data.Length, SocketFlags.None); // 데이터 수신
+
+                Console.WriteLine(Encoding.UTF8.GetString(data));  // 수신된 데이터를 UTF8인코딩으로 string 타입으로 변환 후 콘솔에 출력
+
+                cnn_Result = Encoding.UTF8.GetString(data); //파이썬에서 돌린 CNN 모델 결과값을 C#에 전송해, cnn_Result에 저장
+            }
+            Console.WriteLine("wait...");
+            Console.ReadLine();
+
+
             //switch문을 사용하여 사진의 건물에 따른 information 창 출력
-            switch (cnn_Result) {
+            switch (cnn_Result)
+            {
                 case "bi": //비마관일 경우
                     Bima newForm1 = new Bima();
                     newForm1.Location = new Point(this.Location.X, this.Location.Y); //새로운 창이 기존의 창과 같은 위치로 띄우도록 변경
@@ -88,15 +118,16 @@ namespace KW_Guidebook_UI
                     break;
                 case "se": //새빛관일 경우
                     Saebit newForm2 = new Saebit();
-                    newForm2.Location = new Point(this.Location.X, this.Location.Y); 
-                    newForm2.Show(); 
+                    newForm2.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm2.Show();
                     break;
                 case "cham": //참빛관일 경우
                     Chambit newForm3 = new Chambit();
-                    newForm3.Location = new Point(this.Location.X, this.Location.Y); 
-                    newForm3.Show(); 
+                    newForm3.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm3.Show();
                     break;
             }
+
    
         }
 
