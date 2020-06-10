@@ -92,6 +92,24 @@
     <Compile Include="ginyeom_lab.Designer.cs">
       <DependentUpon>ginyeom_lab.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hanoul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hanoul.Designer.cs">
+      <DependentUpon>Hanoul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hanoul_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hanoul_class.Designer.cs">
+      <DependentUpon>hanoul_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hanoul_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hanoul_lab.Designer.cs">
+      <DependentUpon>hanoul_lab.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hwado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +246,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ginyeom_lab.resx">
       <DependentUpon>ginyeom_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hanoul.resx">
+      <DependentUpon>Hanoul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hanoul_class.resx">
+      <DependentUpon>hanoul_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hanoul_lab.resx">
+      <DependentUpon>hanoul_lab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hwado.resx">
       <DependentUpon>Hwado.cs</DependentUpon>

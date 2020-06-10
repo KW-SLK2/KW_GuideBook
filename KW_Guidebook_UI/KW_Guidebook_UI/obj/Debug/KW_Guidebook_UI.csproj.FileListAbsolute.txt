@@ -57,3 +57,6 @@ C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW
 C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.csproj.GenerateResource.cache
 C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.exe
 C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.pdb
+C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Hanoul.resources
+C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.hanoul_class.resources
+C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.hanoul_lab.resources

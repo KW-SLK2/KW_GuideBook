@@ -135,30 +135,35 @@ namespace KW_Guidebook_UI
                     newForm3.Location = new Point(this.Location.X, this.Location.Y);
                     newForm3.Show();
                     break;
-                case "hwado": //참빛관일 경우
+                case "hwado": //화도관일 경우
                     Hwado newForm4 = new Hwado();
                     newForm4.Location = new Point(this.Location.X, this.Location.Y);
                     newForm4.Show();
                     break;
-                case "oakui": //참빛관일 경우
+                case "oakui": //옥의관일 경우
                     Oakui newForm5 = new Oakui();
                     newForm5.Location = new Point(this.Location.X, this.Location.Y);
                     newForm5.Show();
                     break;
-                case "yeongu": //참빛관일 경우
+                case "yeongu": //연구관일 경우
                     Yeongu newForm6 = new Yeongu();
                     newForm6.Location = new Point(this.Location.X, this.Location.Y);
                     newForm6.Show();
                     break;
-                case "ginyeom": //참빛관일 경우
+                case "ginyeom": //기념관일 경우
                     Ginyeom newForm7 = new Ginyeom();
                     newForm7.Location = new Point(this.Location.X, this.Location.Y);
                     newForm7.Show();
                     break;
-                case "nuri": //참빛관일 경우
+                case "nuri": //누리관일 경우
                     Nuri newForm8 = new Nuri();
                     newForm8.Location = new Point(this.Location.X, this.Location.Y);
                     newForm8.Show();
+                    break;
+                case "hanoul": //한울관일 경우
+                    Hanoul newForm9 = new Hanoul();
+                    newForm9.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm9.Show();
                     break;
             }
 
