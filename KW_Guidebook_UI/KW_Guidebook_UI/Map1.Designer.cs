@@ -37,9 +37,9 @@
             // map_Image
             // 
             this.map_Image.Image = ((System.Drawing.Image)(resources.GetObject("map_Image.Image")));
-            this.map_Image.Location = new System.Drawing.Point(53, 102);
+            this.map_Image.Location = new System.Drawing.Point(70, 128);
             this.map_Image.Name = "map_Image";
-            this.map_Image.Size = new System.Drawing.Size(694, 324);
+            this.map_Image.Size = new System.Drawing.Size(824, 402);
             this.map_Image.TabIndex = 0;
             this.map_Image.TabStop = false;
             // 
@@ -48,7 +48,7 @@
             this.roadmap_label.AutoSize = true;
             this.roadmap_label.Font = new System.Drawing.Font("휴먼엑스포", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.roadmap_label.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.roadmap_label.Location = new System.Drawing.Point(337, 19);
+            this.roadmap_label.Location = new System.Drawing.Point(417, 35);
             this.roadmap_label.Name = "roadmap_label";
             this.roadmap_label.Size = new System.Drawing.Size(149, 67);
             this.roadmap_label.TabIndex = 1;
@@ -59,7 +59,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(802, 468);
+            this.ClientSize = new System.Drawing.Size(968, 576);
             this.Controls.Add(this.roadmap_label);
             this.Controls.Add(this.map_Image);
             this.Name = "Map1";

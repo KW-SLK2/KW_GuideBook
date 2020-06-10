@@ -112,9 +112,9 @@
             // KWImage
             // 
             this.KWImage.Image = ((System.Drawing.Image)(resources.GetObject("KWImage.Image")));
-            this.KWImage.Location = new System.Drawing.Point(312, 47);
+            this.KWImage.Location = new System.Drawing.Point(297, 36);
             this.KWImage.Name = "KWImage";
-            this.KWImage.Size = new System.Drawing.Size(99, 107);
+            this.KWImage.Size = new System.Drawing.Size(121, 118);
             this.KWImage.TabIndex = 5;
             this.KWImage.TabStop = false;
             // 
