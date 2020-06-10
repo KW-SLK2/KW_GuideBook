@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace KW_Guidebook_UI
 {
     public partial class bima_class : Form
@@ -16,5 +18,6 @@ namespace KW_Guidebook_UI
         {
             InitializeComponent();
         }
+
     }
 }
