@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using TensorFlow;
 
 namespace KW_Guidebook_UI
 {
@@ -136,6 +135,31 @@ namespace KW_Guidebook_UI
                     newForm3.Location = new Point(this.Location.X, this.Location.Y);
                     newForm3.Show();
                     break;
+                case "hwado": //참빛관일 경우
+                    Hwado newForm4 = new Hwado();
+                    newForm4.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm4.Show();
+                    break;
+                case "oakui": //참빛관일 경우
+                    Oakui newForm5 = new Oakui();
+                    newForm5.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm5.Show();
+                    break;
+                case "yeongu": //참빛관일 경우
+                    Yeongu newForm6 = new Yeongu();
+                    newForm6.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm6.Show();
+                    break;
+                case "ginyeom": //참빛관일 경우
+                    Ginyeom newForm7 = new Ginyeom();
+                    newForm7.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm7.Show();
+                    break;
+                case "nuri": //참빛관일 경우
+                    Nuri newForm8 = new Nuri();
+                    newForm8.Location = new Point(this.Location.X, this.Location.Y);
+                    newForm8.Show();
+                    break;
             }
 
    
@@ -144,6 +168,13 @@ namespace KW_Guidebook_UI
         private void KW_Guidebook_Main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void road_map_btn_Click(object sender, EventArgs e)
+        {
+            Map1 newForm1 = new Map1();
+            newForm1.Location = new Point(this.Location.X, this.Location.Y);
+            newForm1.Show();
         }
 
         //CNN을 이용해 건물을 알아낸 후 건물값을 알려주는 함수

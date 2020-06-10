@@ -16,5 +16,24 @@ namespace KW_Guidebook_UI
         {
             InitializeComponent();
         }
+
+        private void Chambit_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab_btn_Click(object sender, EventArgs e)
+        {
+            chambit_lab newForm = new chambit_lab();
+            newForm.StartPosition = FormStartPosition.CenterScreen;
+            newForm.Show(); //새로운 창과 기존의 창이 둘다 컨트롤 가능하도록 Show()함수 사용
+        }
+
+        private void information_btn_Click(object sender, EventArgs e)
+        {
+            chambit_class newForm = new chambit_class();
+            newForm.StartPosition = FormStartPosition.CenterScreen;
+            newForm.Show(); //새로운 창과 기존의 창이 둘다 컨트롤 가능하도록 Show()함수 사용
+        }
     }
 }

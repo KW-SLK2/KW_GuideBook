@@ -83,6 +83,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "bima_lab";
             this.Text = "bima_lab";
+            this.Load += new System.EventHandler(this.bima_lab_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -50,11 +50,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bima_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bima_class.Designer.cs">
+      <DependentUpon>bima_class.cs</DependentUpon>
+    </Compile>
     <Compile Include="bima_lab.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="bima_lab.Designer.cs">
       <DependentUpon>bima_lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chambit_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chambit_class.Designer.cs">
+      <DependentUpon>chambit_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chambit_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chambit_lab.Designer.cs">
+      <DependentUpon>chambit_lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ginyeom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ginyeom.Designer.cs">
+      <DependentUpon>Ginyeom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ginyeom_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ginyeom_class.Designer.cs">
+      <DependentUpon>ginyeom_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ginyeom_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ginyeom_lab.Designer.cs">
+      <DependentUpon>ginyeom_lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hwado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hwado.Designer.cs">
+      <DependentUpon>Hwado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hwado_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hwado_class.Designer.cs">
+      <DependentUpon>hwado_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hwado_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hwado_lab.Designer.cs">
+      <DependentUpon>hwado_lab.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -67,6 +121,48 @@
     </Compile>
     <Compile Include="Bima.Designer.cs">
       <DependentUpon>Bima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map1.Designer.cs">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nuri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nuri.Designer.cs">
+      <DependentUpon>Nuri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuri_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuri_class.Designer.cs">
+      <DependentUpon>nuri_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuri_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuri_lab.Designer.cs">
+      <DependentUpon>nuri_lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oakui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oakui.Designer.cs">
+      <DependentUpon>Oakui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oakui_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oakui_class.Designer.cs">
+      <DependentUpon>oakui_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oakui_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oakui_lab.Designer.cs">
+      <DependentUpon>oakui_lab.cs</DependentUpon>
     </Compile>
     <Compile Include="Saebit.cs">
       <SubType>Form</SubType>
@@ -82,14 +178,92 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saebit_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saebit_class.Designer.cs">
+      <DependentUpon>saebit_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saebit_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saebit_lab.Designer.cs">
+      <DependentUpon>saebit_lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yeongu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yeongu.Designer.cs">
+      <DependentUpon>Yeongu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yeongu_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yeongu_class.Designer.cs">
+      <DependentUpon>yeongu_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yeongu_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yeongu_lab.Designer.cs">
+      <DependentUpon>yeongu_lab.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bima_class.resx">
+      <DependentUpon>bima_class.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bima_lab.resx">
       <DependentUpon>bima_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chambit_class.resx">
+      <DependentUpon>chambit_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chambit_lab.resx">
+      <DependentUpon>chambit_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ginyeom.resx">
+      <DependentUpon>Ginyeom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ginyeom_class.resx">
+      <DependentUpon>ginyeom_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ginyeom_lab.resx">
+      <DependentUpon>ginyeom_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hwado.resx">
+      <DependentUpon>Hwado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hwado_class.resx">
+      <DependentUpon>hwado_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hwado_lab.resx">
+      <DependentUpon>hwado_lab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bima.resx">
       <DependentUpon>Bima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map1.resx">
+      <DependentUpon>Map1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nuri.resx">
+      <DependentUpon>Nuri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuri_class.resx">
+      <DependentUpon>nuri_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuri_lab.resx">
+      <DependentUpon>nuri_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oakui.resx">
+      <DependentUpon>Oakui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oakui_class.resx">
+      <DependentUpon>oakui_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oakui_lab.resx">
+      <DependentUpon>oakui_lab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Saebit.resx">
       <DependentUpon>Saebit.cs</DependentUpon>
@@ -106,6 +280,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="saebit_class.resx">
+      <DependentUpon>saebit_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saebit_lab.resx">
+      <DependentUpon>saebit_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yeongu.resx">
+      <DependentUpon>Yeongu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yeongu_class.resx">
+      <DependentUpon>yeongu_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yeongu_lab.resx">
+      <DependentUpon>yeongu_lab.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

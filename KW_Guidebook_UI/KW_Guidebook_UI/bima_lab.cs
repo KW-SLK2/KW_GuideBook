@@ -100,5 +100,10 @@ namespace KW_Guidebook_UI
                 GC.Collect();
             }
         }
+
+        private void bima_lab_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
