@@ -117,7 +117,7 @@ namespace KW_Guidebook_UI
 
 
             //switch문을 사용하여 사진의 건물에 따른 information 창 출력
-            
+           
             switch (CNN_result)
             {
                 case "bima": //비마관일 경우
