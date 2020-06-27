@@ -28,44 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(yeongu_class));
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.KWImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KWImage)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 48F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Ink Free", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.label1.Location = new System.Drawing.Point(301, 9);
+            this.label1.Location = new System.Drawing.Point(405, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(393, 106);
+            this.label1.Size = new System.Drawing.Size(500, 99);
             this.label1.TabIndex = 6;
-            this.label1.Text = "강의 정보";
+            this.label1.Text = "yeongu Class ";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 118);
+            this.dataGridView1.GridColor = System.Drawing.Color.Maroon;
+            this.dataGridView1.Location = new System.Drawing.Point(33, 151);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(962, 469);
+            this.dataGridView1.Size = new System.Drawing.Size(1205, 522);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // KWImage
+            // 
+            this.KWImage.Image = ((System.Drawing.Image)(resources.GetObject("KWImage.Image")));
+            this.KWImage.Location = new System.Drawing.Point(1155, 9);
+            this.KWImage.Name = "KWImage";
+            this.KWImage.Size = new System.Drawing.Size(121, 118);
+            this.KWImage.TabIndex = 11;
+            this.KWImage.TabStop = false;
             // 
             // yeongu_class
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(1000, 608);
+            this.ClientSize = new System.Drawing.Size(1288, 713);
+            this.Controls.Add(this.KWImage);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "yeongu_class";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "yeongu_class";
             this.Load += new System.EventHandler(this.yeongu_class_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KWImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -75,5 +92,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox KWImage;
     }
 }

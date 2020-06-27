@@ -35,5 +35,10 @@ namespace KW_Guidebook_UI
             newForm.StartPosition = FormStartPosition.CenterScreen;
             newForm.Show(); //새로운 창과 기존의 창이 둘다 컨트롤 가능하도록 Show()함수 사용
         }
+
+        private void Oakui_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

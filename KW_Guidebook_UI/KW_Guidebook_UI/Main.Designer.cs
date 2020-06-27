@@ -43,18 +43,18 @@
             // KW_Guidebook_label
             // 
             this.KW_Guidebook_label.AutoSize = true;
-            this.KW_Guidebook_label.Font = new System.Drawing.Font("Algerian", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KW_Guidebook_label.Font = new System.Drawing.Font("Ink Free", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KW_Guidebook_label.ForeColor = System.Drawing.Color.AntiqueWhite;
             this.KW_Guidebook_label.Location = new System.Drawing.Point(403, 51);
             this.KW_Guidebook_label.Name = "KW_Guidebook_label";
-            this.KW_Guidebook_label.Size = new System.Drawing.Size(619, 89);
+            this.KW_Guidebook_label.Size = new System.Drawing.Size(532, 99);
             this.KW_Guidebook_label.TabIndex = 0;
             this.KW_Guidebook_label.Text = "KW GuideBook";
             // 
             // load_image_btn
             // 
-            this.load_image_btn.BackColor = System.Drawing.Color.Pink;
-            this.load_image_btn.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.load_image_btn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.load_image_btn.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.load_image_btn.Image = ((System.Drawing.Image)(resources.GetObject("load_image_btn.Image")));
             this.load_image_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.load_image_btn.Location = new System.Drawing.Point(1063, 371);
@@ -68,7 +68,7 @@
             // 
             // image_pictureBox
             // 
-            this.image_pictureBox.Location = new System.Drawing.Point(297, 160);
+            this.image_pictureBox.Location = new System.Drawing.Point(252, 184);
             this.image_pictureBox.Name = "image_pictureBox";
             this.image_pictureBox.Size = new System.Drawing.Size(725, 396);
             this.image_pictureBox.TabIndex = 2;
@@ -81,8 +81,8 @@
             // 
             // information_btn
             // 
-            this.information_btn.BackColor = System.Drawing.Color.Pink;
-            this.information_btn.Font = new System.Drawing.Font("Algerian", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.information_btn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.information_btn.Font = new System.Drawing.Font("Ink Free", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.information_btn.Image = ((System.Drawing.Image)(resources.GetObject("information_btn.Image")));
             this.information_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.information_btn.Location = new System.Drawing.Point(1063, 471);
@@ -96,8 +96,8 @@
             // 
             // road_map_btn
             // 
-            this.road_map_btn.BackColor = System.Drawing.Color.Pink;
-            this.road_map_btn.Font = new System.Drawing.Font("Algerian", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.road_map_btn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.road_map_btn.Font = new System.Drawing.Font("Ink Free", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.road_map_btn.Image = ((System.Drawing.Image)(resources.GetObject("road_map_btn.Image")));
             this.road_map_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.road_map_btn.Location = new System.Drawing.Point(1063, 272);
@@ -112,7 +112,7 @@
             // KWImage
             // 
             this.KWImage.Image = ((System.Drawing.Image)(resources.GetObject("KWImage.Image")));
-            this.KWImage.Location = new System.Drawing.Point(297, 36);
+            this.KWImage.Location = new System.Drawing.Point(276, 32);
             this.KWImage.Name = "KWImage";
             this.KWImage.Size = new System.Drawing.Size(121, 118);
             this.KWImage.TabIndex = 5;

@@ -99,7 +99,7 @@ namespace KW_Guidebook_UI
 
         private void hwado_lab_Load(object sender, EventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"PROVIDER=MICROSOFT.ACE.OLEDB.12.0;Data Source='C:\Users\이원빈\Documents\GitHub\KW_GuideBook\KW_GuideBook\화도관_연구실.cell'; Extended Properties = 'Excel 12.0; HDR=yes';");
+            OleDbConnection con = new OleDbConnection(@"PROVIDER=MICROSOFT.ACE.OLEDB.12.0;Data Source='C:\github\KW_GuideBook\KW_information\화도관_연구실.cell'; Extended Properties = 'Excel 12.0; HDR=yes';");
             OleDbDataAdapter cmd = new OleDbDataAdapter("Select * from [Sheet1$]", con);
             DataSet ds = new DataSet();
             cmd.Fill(ds);

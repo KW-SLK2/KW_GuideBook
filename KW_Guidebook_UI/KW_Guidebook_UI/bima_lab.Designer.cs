@@ -28,24 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bima_lab));
             this.label1 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.KWImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KWImage)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 48F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Ink Free", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.label1.Location = new System.Drawing.Point(520, 20);
+            this.label1.Location = new System.Drawing.Point(493, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 106);
+            this.label1.Size = new System.Drawing.Size(332, 99);
             this.label1.TabIndex = 0;
-            this.label1.Text = "연구실";
+            this.label1.Text = "bima lab";
             // 
             // openFileDialog1
             // 
@@ -62,42 +64,42 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(33, 145);
+            this.dataGridView1.GridColor = System.Drawing.Color.Maroon;
+            this.dataGridView1.Location = new System.Drawing.Point(37, 162);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1239, 464);
+            this.dataGridView1.Size = new System.Drawing.Size(1190, 513);
             this.dataGridView1.TabIndex = 3;
             // 
-            // linkLabel1
+            // KWImage
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Linen;
-            this.linkLabel1.Location = new System.Drawing.Point(1027, 20);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(245, 23);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "201호 영상처리 시스템 연구실";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.KWImage.Image = ((System.Drawing.Image)(resources.GetObject("KWImage.Image")));
+            this.KWImage.Location = new System.Drawing.Point(1119, 20);
+            this.KWImage.Name = "KWImage";
+            this.KWImage.Size = new System.Drawing.Size(121, 118);
+            this.KWImage.TabIndex = 11;
+            this.KWImage.TabStop = false;
             // 
             // bima_lab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(1284, 858);
+            this.ClientSize = new System.Drawing.Size(1288, 713);
+            this.Controls.Add(this.KWImage);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "bima_lab";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "bima_lab";
             this.Load += new System.EventHandler(this.bima_lab_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KWImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,6 +111,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.PictureBox KWImage;
     }
 }
