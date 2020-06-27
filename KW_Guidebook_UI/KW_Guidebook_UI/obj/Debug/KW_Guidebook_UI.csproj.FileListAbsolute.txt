@@ -121,3 +121,4 @@ C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI
 C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Yeongu.resources
 C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.yeongu_class.resources
 C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.yeongu_lab.resources
+C:\github\KW_GuideBook\KW_Guidebook_UI\KW_Guidebook_UI\obj\Debug\KW_Guidebook_UI.Score.resources

@@ -16,5 +16,10 @@ namespace KW_Guidebook_UI
         {
             InitializeComponent();
         }
+
+        private void Map1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

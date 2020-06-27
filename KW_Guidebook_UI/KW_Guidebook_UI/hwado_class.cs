@@ -27,5 +27,10 @@ namespace KW_Guidebook_UI
             dataGridView1.DataSource = ds.Tables[0];
             con.Close();
         }
+
+        private void dataGridView1_DoubleClick(object sender, EventArgs e)
+        {
+            MessageBox.Show("선택:");
+        }
     }
 }

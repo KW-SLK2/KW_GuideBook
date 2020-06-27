@@ -165,6 +165,9 @@ namespace KW_Guidebook_UI
                     newForm9.Location = new Point(this.Location.X, this.Location.Y);
                     newForm9.Show();
                     break;
+                default:
+                    MessageBox.Show("다른 건물 사진을 입력해주세요.");
+                    break;
             }
 
    
@@ -172,7 +175,10 @@ namespace KW_Guidebook_UI
 
         private void KW_Guidebook_Main_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "";
+            timer1.Interval = 1000;//1초
+            timer1.Tick += timer1_Tick;
+            timer1.Start();
         }
 
         private void road_map_btn_Click(object sender, EventArgs e)
@@ -182,11 +188,22 @@ namespace KW_Guidebook_UI
             newForm1.Show();
         }
 
-        //CNN을 이용해 건물을 알아낸 후 건물값을 알려주는 함수
-        /*
-        private int getBuilding_number()
+        //광운대학교 링크
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            System.Diagnostics.Process.Start("https://www.kw.ac.kr/ko/");
         }
-        */
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Score score = new Score();
+            score.Location = new Point(this.Location.X, this.Location.Y);
+            score.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToString();
+        }
     }
 }

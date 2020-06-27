@@ -78,6 +78,7 @@
             this.Name = "Map1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Map1";
+            this.Load += new System.EventHandler(this.Map1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.map_Image)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.KWImage)).EndInit();
             this.ResumeLayout(false);

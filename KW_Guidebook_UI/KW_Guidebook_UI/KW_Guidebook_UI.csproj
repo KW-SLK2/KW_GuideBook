@@ -208,6 +208,12 @@
     <Compile Include="saebit_lab.Designer.cs">
       <DependentUpon>saebit_lab.cs</DependentUpon>
     </Compile>
+    <Compile Include="Score.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score.Designer.cs">
+      <DependentUpon>Score.cs</DependentUpon>
+    </Compile>
     <Compile Include="Yeongu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -312,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="saebit_lab.resx">
       <DependentUpon>saebit_lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score.resx">
+      <DependentUpon>Score.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Yeongu.resx">
       <DependentUpon>Yeongu.cs</DependentUpon>

@@ -114,6 +114,7 @@
             this.Name = "Nuri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuri";
+            this.Load += new System.EventHandler(this.Nuri_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Chambit_Map)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.KWImage)).EndInit();
             this.ResumeLayout(false);

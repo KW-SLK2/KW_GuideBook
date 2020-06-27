@@ -18,17 +18,7 @@ namespace KW_Guidebook_UI
         {
             InitializeComponent();
             System.Windows.Forms.Label label;
-            for (int i = 0; i < 10; i++)
-            {
-                label = new System.Windows.Forms.Label();
-                label.Location = new System.Drawing.Point(30, 120 + i * 30);
-                label.Name = "label" + i.ToString();
-                label.Size = new System.Drawing.Size(150, 23);
-                label.TabIndex = i;
-                label.Text = "교수님 연구실 정보" + i.ToString();
-                label.ForeColor = Color.Linen;
-                this.Controls.Add(label);
-            }
+            
         }
 
         private string filePath = ""; //엑셀 파일 주소
@@ -37,12 +27,7 @@ namespace KW_Guidebook_UI
 
         }
 
-        /*영상처리 시스템 연구실 링크 라벨
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://ipsl.kw.ac.kr/xe/");
-        } */
-
+  
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
