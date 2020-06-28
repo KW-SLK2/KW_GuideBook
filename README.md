@@ -3,6 +3,10 @@
 - 광운대학교 2020년 1학기 응용소프트웨어실습
 - 팀원 : 권나성, 김소민, 심다혜, 이원빈
 
+## 시연영상
+
+[![Video Label](./KWGuideImg/main_image.PNG)](https://www.youtube.com/watch?v=wzlhau-rK7Q)
+
 ## 라이브러리 설치
 
 ### anaconda prompt창에서 아래 라이브러리를 설치해주세요.
